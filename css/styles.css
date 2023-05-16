@@ -1,0 +1,163 @@
+:root {
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #E5E5E5;
+    --color-bg-team: #F4F4FD;
+    --color-main-text: #434455;
+    --color-primary-text: #2E2F42;
+    --accent-pressed-state: #404BBF;
+    --accent: #4D5AE5;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--color-main-text);
+    font-family: 'Roboto', sans-serif;  
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;    
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;    
+}
+
+.logo {
+    color: var(--accent);    
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.logo-header {
+    color: var(--color-primary-text);
+}
+
+.site-nav .link {
+    color: var(--color-primary-text);
+    font-weight: 500;    
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-pressed-state);
+}
+
+.site-address .link {
+    color: var(--color-main-text);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--accent-pressed-state);    
+}
+
+.hero-section {
+    background-color: var(--color-primary-text);
+}
+
+.hero-title {
+    color: var(--primary-bg-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.section-title {
+    color: var(--color-primary-text);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;    
+}
+
+.gallery-list {
+    background-color: var(--primary-bg-color);
+}
+
+.features .section-title {   
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.list-text {
+    color: var(--color-main-text);
+}
+
+.page-main,
+.portfolio-section {
+    background-color: var(--secondary-bg-color);
+}
+
+.team-section {
+    background-color: var(--color-bg-team);
+}
+
+.section-team-list {
+    background-color: var(--primary-bg-color);
+}
+
+.button.hero { 
+    color: var(--primary-bg-color);
+    background-color: var(--accent);
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.button.hero:hover,
+.button.hero:focus {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-pressed-state);
+}
+
+.button-sort {
+    color: var(--accent);
+    background-color: var(--color-bg-team);
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.button-sort:hover,
+.button-sort:focus {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-pressed-state);
+}
+
+.section-title.doing,
+.section-title.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;    
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.page-footer {
+    color: var(--color-bg-team);
+    background: var(--color-primary-text);
+}
+
+.logo-footer {
+    color: var(--color-bg-team);
+}
